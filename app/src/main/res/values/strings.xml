@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fruitamax</string>
+    <string name="register"><u>Register.</u></string>
+    <string name="logout"><u>Logout</u></string>
+
+    <!-- Name of the file where the Shared Preferences are written -->
+    <string name="sharesPreferencesFile">fr.etienneguerlain.fruitamax.SHARED_PREFERENCES_FILE</string>
+
+    <string name="token">USER_AUTH_TOKEN</string>
+    <string name="range">SEARCH_RANGE</string>
+</resources>

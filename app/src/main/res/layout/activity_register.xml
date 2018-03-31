@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Firstname"
+        android:layout_marginBottom="20dp"
+        android:singleLine="true"
+        android:nextFocusDown="@+id/lastname"/>
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Lastname"
+        android:layout_marginBottom="20dp"
+        android:singleLine="true"
+        android:nextFocusDown="@+id/email"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginBottom="20dp"
+        android:singleLine="true"
+        android:nextFocusDown="@+id/password"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"
+        android:singleLine="true"
+        android:nextFocusDown="@+id/passwordConfirmation"/>
+
+
+    <EditText
+        android:id="@+id/passwordConfirmation"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Password confirmation"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@color/greenTitle"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>
